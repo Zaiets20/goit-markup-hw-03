@@ -1,0 +1,258 @@
+:root {
+  --primay-brand: #4d5ae5;
+  --dark: #2e2f42;
+  --text: #434455;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --white: #ffffff;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  color: var(--text);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* --------------HEADER-------------- */
+.header {
+}
+.header-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark);
+}
+.logo-part {
+  color: var(--primay-brand);
+}
+
+.header-navigation {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.carrent {
+  color: var(--primay-brand);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--primay-brand);
+}
+.header-contacts {
+}
+
+.contacts-item {
+}
+.header-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--primay-brand);
+}
+
+/* ---------------MAIN------------------ */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.main-section {
+}
+.main-list {
+}
+.main-item {
+}
+.main-button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--primay-brand);
+  background: var(--cloud);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main-button:hover,
+.main-button:focus {
+  color: var(--white);
+  background-color: var(--primay-brand);
+}
+.portfolio-list {
+}
+.portfolio-item {
+  background: var(--white);
+}
+.portfolio-photo {
+}
+.potfolio-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+/* -----------------FOOTER------------------ */
+.footer {
+  background: var(--dark);
+}
+.footer-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud);
+}
+.logo-part-ftr {
+  color: var(--primay-brand);
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cornflower);
+}
+/* -------------------The-main-page--------------------- */
+
+.main-page {
+}
+.main-page-hello {
+  background-color: var(--dark);
+}
+.main-page-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+.main-page-btn {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background-color: var(--primay-brand);
+  border: none;
+  cursor: pointer;
+}
+.main-page-btn:hover,
+.main-page-btn:focus {
+  color: var(--white);
+  background-color: #404bbf;
+}
+.middle {
+}
+.middle-list {
+}
+.middle-item {
+}
+.middle-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.middle-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.about {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+}
+.photo-gadgets {
+}
+.gadgets-item {
+}
+.gadgets-img {
+}
+.team {
+  background: var(--cloud);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+}
+.team-list {
+}
+.team-item {
+  background: var(--white);
+}
+.team-photo {
+}
+.team-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.team-work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
