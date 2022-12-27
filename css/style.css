@@ -204,7 +204,9 @@ body {
   background-color: var(--dark);
 }
 .hero {
-  flex-grow: ;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  padding-left: 332px;
 }
 .main-page-title {
   font-weight: 700;
@@ -213,7 +215,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
-  max-width: 494px;
+  max-width: 500px;
 }
 .main-page-btn {
   font-family: "Roboto";
