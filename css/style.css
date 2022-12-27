@@ -6,10 +6,31 @@
   --cornflower: #e7e9fc;
   --white: #ffffff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ol,
+ul {
+  padding-left: 0;
+  margin: 0;
+}
 
 body {
   font-family: "roboto", sans-serif;
   color: var(--text);
+}
+.container {
+  margin: auto;
+  width: 1158px;
+  outline: 2px solid tomato;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .list {
   list-style: none;
@@ -20,6 +41,7 @@ body {
 /* --------------HEADER-------------- */
 .header {
 }
+/* ---logo---  */
 .header-logo {
   font-weight: 800;
   font-size: 18px;
@@ -29,14 +51,24 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--dark);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 76px;
 }
 .logo-part {
   color: var(--primay-brand);
 }
-
+/* ---navigation--- */
 .header-navigation {
 }
+.main-nav {
+  display: flex;
+  align-items: center;
+}
 .header-list {
+  display: flex;
+  gap: 40px;
+  padding: 0;
 }
 .header-item {
 }
@@ -55,6 +87,10 @@ body {
   color: var(--primay-brand);
 }
 .header-contacts {
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  margin-left: 332px;
 }
 
 .contacts-item {
@@ -83,6 +119,10 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.hero {
+}
+.main-page-title {
 }
 .main-section {
 }
@@ -163,6 +203,9 @@ body {
 .main-page-hello {
   background-color: var(--dark);
 }
+.hero {
+  flex-grow: ;
+}
 .main-page-title {
   font-weight: 700;
   font-size: 56px;
@@ -170,19 +213,20 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
+  max-width: 494px;
 }
 .main-page-btn {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.18;
-  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--primay-brand);
   border: none;
   cursor: pointer;
+  margin-top: 48px;
 }
 .main-page-btn:hover,
 .main-page-btn:focus {
