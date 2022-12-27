@@ -202,11 +202,11 @@ body {
 }
 .main-page-hello {
   background-color: var(--dark);
-}
-.hero {
   padding-top: 188px;
   padding-bottom: 188px;
-  padding-left: 332px;
+  text-align: center;
+}
+.hero {
 }
 .main-page-title {
   font-weight: 700;
@@ -216,6 +216,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--white);
   max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .main-page-btn {
   font-family: "Roboto";
